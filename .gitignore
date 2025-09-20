@@ -1,0 +1,7 @@
+_metadata/
+metadata/
+data/
+node_modules
+.vscode
+.DS_Store
+.env
