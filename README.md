@@ -1,7 +1,7 @@
 # GET data from the Metroverse website [https://metroverse.hks.harvard.edu]
 
 ### Introspection schema
-I have ran grapql introspection code:
+I ran grapql introspection code:
 `{
   __schema {
     queryType {
@@ -58,5 +58,5 @@ Queries available: [   "cityPeerGroupCounts", "naicsDensityRescale", "clusterDen
 #### NOTE:
 For the queries [ "cityIndustryYearList", "clusterRca", "clusterPeerEconStruct" ], the data gets too large, I saved it in CSV format.
 
-### Excluded queris
+### Excluded queries
 This queries are for one item, already available in the list query data: [  "classificationNaicsIndustry", "classificationNaicsCluster", "classificationCity", "classificationCountry", "classificationRegion", "naicsIndustry", "clusterIndustry",]
